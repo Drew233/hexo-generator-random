@@ -62,6 +62,12 @@ npm install object-assign
 npm install hexo-generator-random
 ```
 
+#### 注意
+在博客根目录下的`_config.yml`里面的`url`需要改成'`\`或者你的域名'
+
+#### 已知Bug
+不同的主题可能会有其他页面混进随机文章
+
 #### 使用
 上面的配置如果都是正确的话，当你hexo g之后，在public文件夹下会生成一个random.html。
 直接访问yoursite/random.html就可以感受这个随机文章了。
