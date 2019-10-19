@@ -63,7 +63,7 @@ npm install hexo-generator-random
 ```
 
 #### 注意
-在博客根目录下的`_config.yml`里面的`url`需要改成'`\`或者你的域名'
+在博客根目录下的`_config.yml`里面的`url`需要改成`/`或者你的域名'
 
 #### 已知Bug
 不同的主题可能会有其他页面混进随机文章
