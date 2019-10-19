@@ -1,0 +1,15 @@
+---
+layout=false
+---
+<body onload="javascript:dogo();">
+<script>
+function dogo(){
+    var urls=[
+    {% for post in posts %}
+    "{{ post.permalink | uriencode }}",
+    {% endfor %}
+    ];
+    n = Math.floor(Math.random()*urls.length);
+    location.href= urls[n];
+}
+</script>
