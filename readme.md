@@ -8,7 +8,7 @@ hexo-generator-random是一款hexo插件，作用是生成一个`random.html`，
 #### 功能
 在`public`文件夹中生成一个`random.html`，访问`yoursite/random`即可随即跳转一篇文章。
 #### 版本
-当前最新版本为1.0.0
+当前最新版本为1.0.2
 
 版本2.0.0预计更新内容：在每篇文章的Front-matter中设置一个参数来控制是否添加到随机文章，希望我不会咕咕咕吧
 
